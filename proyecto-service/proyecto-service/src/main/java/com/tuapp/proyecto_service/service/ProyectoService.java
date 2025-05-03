@@ -52,7 +52,7 @@ public class ProyectoService {
                 });
     }
 
-    // ✅ Nuevo método corregido: listar proyectos aprobados
+    // Nuevo método corregido: listar proyectos aprobados
     public List<Proyecto> listarProyectosAprobados() {
         return proyectoRepository.findByEstado("APROBADO");
     }
@@ -61,7 +61,7 @@ public class ProyectoService {
         return proyectoRepository.findByEstado("PENDIENTE");
     }
     public List<Proyecto> listarPorEmpresa(Long empresaId) {
-        return proyectoRepository.findByEmpresaId(empresaId); // ⬅️ este método debe traer TODOS, sin filtrar por estado
+        return proyectoRepository.findByEmpresaId(empresaId); //  este método debe traer TODOS, sin filtrar por estado
     }
 
 

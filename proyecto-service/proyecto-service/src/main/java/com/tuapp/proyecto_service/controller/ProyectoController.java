@@ -58,7 +58,7 @@ public class ProyectoController {
     }
 
 
-    // ✅ Nuevo endpoint: Listar proyectos aprobados
+    //  Nuevo endpoint: Listar proyectos aprobados
     @GetMapping("/aprobados")
     public ResponseEntity<List<Proyecto>> listarProyectosAprobados() {
         List<Proyecto> aprobados = proyectoService.listarProyectosAprobados();

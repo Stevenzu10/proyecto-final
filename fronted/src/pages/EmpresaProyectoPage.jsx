@@ -48,7 +48,7 @@ function EmpresaProyectoPage({ usuario }) {
     })
       .then(() => {
         setProyectos(proyectos.filter((p) => p.id !== id));
-        alert('🗑️ Proyecto eliminado correctamente');
+        alert('Proyecto eliminado correctamente');
       })
       .catch((err) => console.error('Error al eliminar proyecto', err));
   };
@@ -67,7 +67,7 @@ function EmpresaProyectoPage({ usuario }) {
           proyectos.map((p) => (p.id === actualizado.id ? actualizado : p))
         );
         setProyectoEditar(null);
-        alert('✏️ Proyecto editado correctamente');
+        alert('Proyecto editado correctamente');
       })
       .catch((err) => console.error('Error al editar proyecto', err));
   };

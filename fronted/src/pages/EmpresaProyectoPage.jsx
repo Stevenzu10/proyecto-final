@@ -34,7 +34,7 @@ function EmpresaProyectoPage({ usuario }) {
       .then((data) => {
         setProyectos([...proyectos, data]);
         setNuevoProyecto({ nombre: '', descripcion: '' });
-        alert('✅ Proyecto registrado exitosamente');
+        alert('Proyecto registrado exitosamente');
       })
       .catch((err) => console.error('Error al registrar proyecto', err));
   };

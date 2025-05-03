@@ -21,7 +21,7 @@ public class Usuario {
     @Column(unique = true)
     private String correo;
 
-    private String contrasena; // 🔥 Nuevo campo
+    private String contrasena; 
 
     private String rol;
 }

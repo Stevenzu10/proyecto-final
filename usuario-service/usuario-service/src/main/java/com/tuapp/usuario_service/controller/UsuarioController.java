@@ -16,7 +16,7 @@ import java.util.List;
 public class UsuarioController {
 
     private final UsuarioRepository usuarioRepository;
-    private final UsuarioService usuarioService; // ✅ Agregado
+    private final UsuarioService usuarioService; // Agregado
 
     public UsuarioController(UsuarioRepository usuarioRepository, UsuarioService usuarioService) {
         this.usuarioRepository = usuarioRepository;

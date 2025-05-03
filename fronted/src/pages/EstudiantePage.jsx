@@ -31,7 +31,7 @@ function EstudiantePage({ usuario }) {
       })
       .then((nueva) => {
         setPostulaciones([...postulaciones, nueva]);
-        setMensaje('✅ Postulación exitosa');
+        setMensaje('Postulación exitosa');
       })
       .catch(err => setMensaje(err.message));
   };

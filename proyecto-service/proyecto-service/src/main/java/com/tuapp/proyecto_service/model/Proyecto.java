@@ -22,7 +22,7 @@ public class Proyecto {
 
     private Long empresaId;
 
-    // 🆕 Nuevo campo
+    //  Nuevo campo
     private String estado; // PENDIENTE, APROBADO o RECHAZADO
 
 }
